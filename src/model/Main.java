@@ -2,14 +2,14 @@ package model;
 
 public class Main {
 	public static void main(String[] args) {
-		String name = "ÕÅÈı";
+		String name = "å¼ ä¸‰";
 		int age = 16;
-		String gender = "ÄĞ";
+		String gender = "ç”·";
 		String id = "123456";
 		Student s = new Student(name, age, gender, id);
-		System.out.println("ĞÕÃû:" + s.getName());
-		System.out.println("ÄêÁä:" + s.getAge());
-		System.out.println("ĞÔ±ğ:" + s.getGender());
+		System.out.println("å§“å:" + s.getName());
+		System.out.println("å¹´é¾„:" + s.getAge());
+		System.out.println("æ€§åˆ«:" + s.getGender());
 		System.out.println("ID:" + s.getId());
 	}
 }
